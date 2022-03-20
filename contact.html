@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <header id="header">
+        <h1>Welcome</h1>
+    </head>
+</header>
+<body>
+    <nav id="navbar" class="navbar_container">
+        <ul>
+            <li class="navbar_content"><a href="index.html">Home</a></li>
+            <li class="navbar_content"><a href="projects.html">Projects</a></li>
+            <li class="navbar_content"><a href="Blog.html">Blogs</a></li>
+            <li class="navbar_content"><a href="cv.html">About</a></li>
+            <li class="navbar_content"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <main id="main">
+            <div id="form">
+                <form action="contact.php" method="POST" enctype="multipart/form-data">
+                  <label for="form_name">Name</label>
+                  <input
+                    class="form_input"
+                    id="form_name"
+                    type="text"
+                    placeholder="What Your Name?"
+                    name="form_name"
+                    required
+                  />
+        
+                  <br />
+        
+                  <label for="form_email">Email</label>
+                  <input
+                    class="form_input"
+                    id="form_email"
+                    type="email"
+                    placeholder="Your Email Address"
+                    name="form_email"
+                    required
+                  />
+        
+                  <br />
+        
+                  <label for="form_phone">Phone</label>
+                  <input
+                    class="form_input"
+                    id="form_phone"
+                    name="form_phone"
+                    type="tel"
+                    placeholder="Phone Number"
+                    required
+                  />
+                  <br>
+                  <input type="submit" value="Submit" id="form_submit_btn" />
+                </form>
+              </div>
+        </main>
+    <footer id="footer">
+        <a href="#navbar" id="to_top">On top</a>
+        <p class="footer_content">Designed by Ky Anh</p>
+    </footer>
+</body>
+</html>
